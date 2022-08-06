@@ -1,0 +1,93 @@
+.navbar {
+  background-color: rgb(209, 148, 209);
+}
+
+.aboutme {
+  margin-left: 10%;
+}
+.main {
+  display: block;
+  height: 650px;
+  padding-top: 40px;
+
+  background-color: rgb(209, 148, 209);
+  /* margin-top: 20px; */
+  /* margin-bottom: 40px; */
+  text-align: center;
+}
+.main__intro-title {
+  font-family: "Square Peg", cursive;
+  font-size: 80px;
+  color: white;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+.main__intro-text {
+  font-size: 25px;
+  font-family: "Cinzel", serif;
+  color: white;
+  margin-bottom: 50px;
+}
+.main__intro-img {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  padding-left: 26%;
+  width: 350px;
+  height: 350px;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(247, 247, 240);
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+.block-1 {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(247, 247, 240);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.block-1__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(232, 188, 232);
+  padding-top: 50px;
+}
+.card-text {
+  font-family: "Square Peg", cursive;
+}
+.card-body {
+  font-family: "Cinzel", serif;
+  text-align: center;
+}
+
+.block-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(232, 188, 232);
+  padding-bottom: 50px;
+}
+
+footer {
+  background-color: rgb(209, 148, 209);
+  display: flex;
+}
+
+li:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  color: beige;
+}
